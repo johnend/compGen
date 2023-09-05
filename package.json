@@ -1,0 +1,21 @@
+{
+  "name": "compgencli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "John Enderby",
+  "license": "MIT",
+  "bin": {
+    "generateComponent": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^7.1.0",
+    "chalk": "^5.2.0",
+    "npm": "^9.6.6",
+    "yargs": "^13.2.4"
+  }
+}
