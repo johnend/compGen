@@ -52,14 +52,11 @@ const jestBoilerplate = `
   import '@testing-library/jest-dom';
   import ${options.name} from './${options.name}';
 
-  test('loads and displays greeting', async () => {
-    // ARRANGE
-    render(<${options.name} />);
+  describe('the component', async () => {
+    it('renders', () => {
+      render(<${options.name} />);
 
-    // ACT
-
-    // ASSERT
-
+    });
   });
 `;
 
